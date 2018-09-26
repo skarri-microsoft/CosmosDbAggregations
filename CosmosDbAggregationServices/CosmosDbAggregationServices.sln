@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CosmosDbAggregationServices", "CosmosDbAggregationServices\CosmosDbAggregationServices.ccproj", "{B17B3C83-7433-4F62-8D13-481F5C9D3B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDbAggsWorkerRole", "CosmosDbAggsWorkerRole\CosmosDbAggsWorkerRole.csproj", "{65945998-32FA-4F4E-B7A3-DC844CB4D16D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F2A6DA97-3FF5-499F-BA48-C97E69EE7D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulationDataModels", "SimulationDataModels\SimulationDataModels.csproj", "{258C4C4B-50F6-42BE-984D-9D305D5F2A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostProcessingPipeLineLib", "PostProcessingPipeLineLib\PostProcessingPipeLineLib.csproj", "{2D6622CF-14DC-41A8-99FA-85B34812765E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataMovementLib", "SqlDataMovementLib\SqlDataMovementLib.csproj", "{E5D78750-16B7-44A7-BB38-CA634ECF901C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17B3C83-7433-4F62-8D13-481F5C9D3B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17B3C83-7433-4F62-8D13-481F5C9D3B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17B3C83-7433-4F62-8D13-481F5C9D3B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17B3C83-7433-4F62-8D13-481F5C9D3B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65945998-32FA-4F4E-B7A3-DC844CB4D16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65945998-32FA-4F4E-B7A3-DC844CB4D16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65945998-32FA-4F4E-B7A3-DC844CB4D16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65945998-32FA-4F4E-B7A3-DC844CB4D16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A6DA97-3FF5-499F-BA48-C97E69EE7D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A6DA97-3FF5-499F-BA48-C97E69EE7D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A6DA97-3FF5-499F-BA48-C97E69EE7D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A6DA97-3FF5-499F-BA48-C97E69EE7D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258C4C4B-50F6-42BE-984D-9D305D5F2A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258C4C4B-50F6-42BE-984D-9D305D5F2A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258C4C4B-50F6-42BE-984D-9D305D5F2A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258C4C4B-50F6-42BE-984D-9D305D5F2A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6622CF-14DC-41A8-99FA-85B34812765E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6622CF-14DC-41A8-99FA-85B34812765E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6622CF-14DC-41A8-99FA-85B34812765E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6622CF-14DC-41A8-99FA-85B34812765E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D78750-16B7-44A7-BB38-CA634ECF901C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D78750-16B7-44A7-BB38-CA634ECF901C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D78750-16B7-44A7-BB38-CA634ECF901C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D78750-16B7-44A7-BB38-CA634ECF901C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDE27B33-47DF-4452-9764-3494B1098827}
+	EndGlobalSection
+EndGlobal
